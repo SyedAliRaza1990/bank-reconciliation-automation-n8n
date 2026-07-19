@@ -86,8 +86,8 @@ Built as part of my journey into **Finance Automation**, combining my background
 
 I'm currently open to **remote opportunities** in Finance Automation, Tax & Treasury, or Process Automation.
 
-- LinkedIn: [https://www.linkedin.com/in/syed-ali-raza1990/l]
-- Email: [Alisherazi51215@Yahoo.Coml]
+- LinkedIn: [https://www.linkedin.com/in/syed-ali-raza1990/]
+- Email: [Alisherazi51215@Yahoo.Com]
 
 ---
 ⭐ If you found this useful, feel free to star the repo!
