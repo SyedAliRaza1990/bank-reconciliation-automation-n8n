@@ -1,10 +1,27 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Finance+Automation+Enthusiast;n8n+%2B+AI+Workflow+Builder;Open+to+Remote+Opportunities)](https://git.io/typing-svg)
+
 # 🏦 Bank Reconciliation Automation (n8n + AI)
 
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)
+![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Google Docs](https://img.shields.io/badge/Google_Docs-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Open to Work](https://img.shields.io/badge/Open_to-Remote_Work-blue?style=for-the-badge)
+
+![Profile Views](https://komarev.com/ghpvc/?username=your-github-username&color=blue)
+
 An end-to-end **finance automation workflow** built with **n8n**, **Google Sheets**, **Gmail**, and **Google Gemini AI** — designed to automatically reconcile bank statements with accounting records, flag discrepancies, and generate AI-powered summary reports.
+
+---
 
 ## 📌 Overview
 
 Manual bank reconciliation is time-consuming and error-prone. This project automates the entire process — from reading transaction data to generating a professional summary report — with zero manual intervention.
+
+---
+
 ## ⚙️ Workflow Architecture
 
 ```mermaid
@@ -19,6 +36,9 @@ flowchart TD
     E -->|False: Unmatched| H[Gmail Alert]
     F --> I[Google Docs - Report Created]
 ```
+
+---
+
 ## ✨ Features
 
 - 🔄 **Dynamic comparison** — works with any invoice/reference number, no hardcoded values
@@ -32,6 +52,8 @@ flowchart TD
 - 🤖 Generates an AI-powered summary (via Google Gemini) with insights & recommendations
 - 📄 Automatically saves the summary report into Google Docs
 
+---
+
 ## 🛠️ Tools & Technologies
 
 | Tool | Purpose |
@@ -43,9 +65,13 @@ flowchart TD
 | **Google Gemini AI** | AI-generated summary reports |
 | **Google Docs** | Final report storage |
 
+---
+
 ## 📷 Workflow Screenshot
 
 ![Workflow Screenshot](./screenshots/workflow-screenshot.png)
+
+---
 
 ## 📈 Sample Output
 
@@ -56,6 +82,8 @@ flowchart TD
 | INV003 | 1500 | – | ❌ Missing in Books |
 | INV004 | – | 1800 | ❌ Missing in Bank |
 
+---
+
 ## 🚀 How It Works
 
 1. Trigger reads transactions from both Bank Statement and Accounting Records sheets.
@@ -65,6 +93,8 @@ flowchart TD
    - **Unmatched** → Gmail alert sent
 4. Simultaneously, all results are sent to Gemini AI to generate a professional summary.
 5. The summary is inserted into a Google Docs report, timestamped by date.
+
+---
 
 ## 📥 Import This Workflow
 
@@ -78,18 +108,21 @@ Want to use this workflow yourself? Download the JSON file below and import it d
 3. Select the downloaded JSON file
 4. Reconnect your Google Sheets, Gmail, and Gemini credentials
 
+---
+
 ## 💡 About This Project
 
 Built as part of my journey into **Finance Automation**, combining my background in tax compliance, treasury operations, and banking reconciliations with automation tools like n8n and AI.
+
+---
 
 ## 📫 Let's Connect
 
 I'm currently open to **remote opportunities** in Finance Automation, Tax & Treasury, or Process Automation.
 
-- LinkedIn: [https://www.linkedin.com/in/syed-ali-raza1990/]
-- Email: [Alisherazi51215@Yahoo.Com]
+- 💼 LinkedIn: [https://www.linkedin.com/in/syed-ali-raza1990/]
+- 📧 Email: [Alisherazi51215@Yahoo.com]
 
 ---
+
 ⭐ If you found this useful, feel free to star the repo!
-
-
