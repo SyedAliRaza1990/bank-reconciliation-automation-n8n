@@ -5,28 +5,20 @@ An end-to-end **finance automation workflow** built with **n8n**, **Google Sheet
 ## 📌 Overview
 
 Manual bank reconciliation is time-consuming and error-prone. This project automates the entire process — from reading transaction data to generating a professional summary report — with zero manual intervention.
-
 ## ⚙️ Workflow Architecture
-Manual Trigger
-│
-├──────────────┐
-▼              ▼
-Google Sheets     Google Sheets
-(Bank Statement)  (Accounting Records)
-│              │
-└──────┬───────┘
-▼
-Code Node (Dynamic Comparison Logic)
-│
-┌──────┴──────────────┐
-▼                     ▼
-IF                  Gemini AI (Summary)
-┌──┴──┐                    │
-▼     ▼                    ▼
-Google  Gmail            Google Docs
-Sheet   Alert          (Report Created)
-(Matched) (Unmatched)
 
+```mermaid
+flowchart TD
+    A[Manual Trigger] --> B[Google Sheets - Bank Statement]
+    A --> C[Google Sheets - Accounting Records]
+    B --> D[Code Node - Dynamic Comparison Logic]
+    C --> D
+    D --> E{IF: Status = Matched?}
+    D --> F[Gemini AI - Summary]
+    E -->|True: Matched| G[Google Sheets - Report]
+    E -->|False: Unmatched| H[Gmail Alert]
+    F --> I[Google Docs - Report Created]
+```
 ## ✨ Features
 
 - 🔄 **Dynamic comparison** — works with any invoice/reference number, no hardcoded values
