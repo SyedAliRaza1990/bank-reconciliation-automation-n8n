@@ -6,9 +6,9 @@
 ![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Google Docs](https://img.shields.io/badge/Google_Docs-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)
+![Google Docs](https://img.shields.io/badge/Google_Docs-4285F4?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-![Open to Work](https://img.shields.io/badge/Open_to-Remote_Work-blue?style=for-the-badge)
+![Open to Work](https://img.shields.io/badge/Open%20to%20Work-Remote-blue?style=for-the-badge)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=your-github-username&color=blue)
 
@@ -121,7 +121,7 @@ Built as part of my journey into **Finance Automation**, combining my background
 I'm currently open to **remote opportunities** in Finance Automation, Tax & Treasury, or Process Automation.
 
 - 💼 LinkedIn: [https://www.linkedin.com/in/syed-ali-raza1990/]
-- 📧 Email: [Alisherazi51215@Yahoo.com]
+- 📧 Email: [Alisherazi51215@Yahoo.Com]
 
 ---
 
